@@ -1,28 +1,28 @@
-#pssw-gnrtd{
- opacity: 0;
- transition: opacity 0.3s;
+#pssw-gnrtd {
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.showpassword{
- display: inline-block;
-}
-
-.hidepassword{
- display: none;
-}
-
-.show-on-focus{
- display: inline-block;
-}
-
-.show-on-focus:focus #pssw-gnrtd{
-  opacity: 1;
-}
-
-.show-on-focus:focus .hidepassword{
+.showpassword {
   display: inline-block;
 }
 
-.show-on-focus:focus .showpassword{
- display: none;
+.hidepassword {
+  display: none;
+}
+
+.show-on-focus {
+  display: inline-block;
+}
+
+.show-on-focus:focus #pssw-gnrtd {
+  opacity: 1;
+}
+
+.show-on-focus:focus .hidepassword {
+  display: inline-block;
+}
+
+.show-on-focus:focus .showpassword {
+  display: none;
 }
