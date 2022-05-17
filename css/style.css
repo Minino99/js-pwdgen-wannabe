@@ -1,0 +1,11 @@
+#pssw-gnrtd{
+ opacity: 0;
+}
+
+.showpassword{
+ display: inline-block;
+}
+
+.showpassword:focus #pssw-gnrtd{
+ opacity: 1;
+}
